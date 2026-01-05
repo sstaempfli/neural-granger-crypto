@@ -1,0 +1,24 @@
+{
+  "type": "Last",
+  "meta": {
+    "task": "VOL_h24",
+    "h": 24,
+    "train_start": "2021-01-01",
+    "train_end": "2023-12-31 23:00",
+    "test_start": "2024-01-01",
+    "test_end": "2024-12-31 23:00",
+    "seed": 4,
+    "lam_sparse": 0.0005,
+    "lags_hours": [
+      1,
+      3,
+      6,
+      12
+    ]
+  },
+  "metrics": {
+    "MSE": 1.182567642450786e-05,
+    "MAE": 0.002469872633539155,
+    "SignHitRate": 1.0
+  }
+}
