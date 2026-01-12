@@ -13,7 +13,7 @@ experiments on crypto returns and volatility for BTC/ETH/SOL.
 
 ## Quick start
 1) Install dependencies:
-   `pip install -r requirements.txt`
+   `pip install -r requirements.txt` (pip, Python 3.11) or `conda env create -f environment.yml` (conda)
 2) Run `preprocessing.ipynb` to create processed features.
 3) Run `analysis.ipynb` to train/evaluate models and export assets.
 
