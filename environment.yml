@@ -1,4 +1,4 @@
-name: dlproject
+name: neural_env
 channels:
   - conda-forge
   - defaults
